@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Development CSS Major Project</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/f6545ee271.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="navbar">
+        <div class="navbar-menu">
+          <img
+            class="logo"
+            src="images/logo.png"
+            alt="logo"
+            onclick="location.href='index.html';"
+          />
+          <div class="navbar-item">Favourites</div>
+        </div>
+        <div class="navbar-search">
+          <input
+            class="search-bar"
+            type="text"
+            name="search"
+            placeholder="Search"
+          />
+          <div class="notification">
+            <i class="bell-icon fa-regular fa-bell"></i>
+            <img src="images/badge.png" class="badge" alt="badge" />
+          </div>
+          <img
+            class="profile-image"
+            src="images/profile-image.jpg"
+            alt="profile-image"
+          />
+        </div>
+      </div>
+      <div class="main">
+        <div class="content">
+          <div class="featured">
+            <img
+              src="images/featured/featured-image1.jpg"
+              class="featured-images"
+              alt=""
+            />
+            <img
+              src="images/featured/featured-image2.jpg"
+              class="featured-images"
+              alt=""
+            />
+            <img
+              src="images/featured/featured-image3.jpg"
+              class="featured-images"
+              alt=""
+            />
+          </div>
+          <h2 class="sub-title">Latest Release</h2>
+          <div class="lastest-release">
+            <div class="latest-release-song">
+              <img
+                class="song-image"
+                src="images/latest-released/I'll Wait.jpg"
+                alt="I will wait"
+              />
+              <div class="song-details">
+                <div class="song-name">I'll Wait</div>
+                <div class="song-date default-text-color">Aug 11,2022</div>
+              </div>
+              <div class="song-data">
+                <div class="song-dropdown default-text-color">. . .</div>
+                <div class="song-duration default-text-color">4.44</div>
+              </div>
+            </div>
+            <div class="latest-release-song">
+              <img
+                class="song-image"
+                src="images/latest-released/ily.jpg"
+                alt="ily"
+              />
+              <div class="song-details">
+                <div class="song-name">Ily</div>
+                <div class="song-date default-text-color">Dec 15,2022</div>
+              </div>
+              <div class="song-data">
+                <div class="song-dropdown default-text-color">. . .</div>
+                <div class="song-duration default-text-color">4.44</div>
+              </div>
+            </div>
+            <div class="latest-release-song">
+              <img
+                class="song-image"
+                src="images/latest-released/let me go.jpg"
+                alt="let me go"
+              />
+              <div class="song-details">
+                <div class="song-name">Let Me Go</div>
+                <div class="song-date default-text-color">Nov 22,2022</div>
+              </div>
+              <div class="song-data">
+                <div class="song-dropdown default-text-color">. . .</div>
+                <div class="song-duration default-text-color">4.44</div>
+              </div>
+            </div>
+            <div class="latest-release-song">
+              <img
+                class="song-image"
+                src="images/latest-released/qurantine clean.jpg"
+                alt="qurantine clean"
+              />
+              <div class="song-details">
+                <div class="song-name">Qurantine Clean</div>
+                <div class="song-date default-text-color">Oct 30,2022</div>
+              </div>
+              <div class="song-data">
+                <div class="song-dropdown default-text-color">. . .</div>
+                <div class="song-duration default-text-color">4.44</div>
+              </div>
+            </div>
+          </div>
+          <h2 class="sub-title">Popular Artists</h2>
+          <div class="popular-artists">
+            <div class="artist-details">
+              <img
+                class="artist-image"
+                src="images/artists/adele.jpg"
+                alt="adele"
+                onclick="location.href='artist.html';"
+              />
+              <a href="/artist.html">
+                <div class="artist-name">Adele</div>
+              </a>
+            </div>
+            <div class="artist-details">
+              <img
+                class="artist-image"
+                src="images/artists/billie eilish.jpg"
+                alt="billie eilish"
+                onclick="location.href='artist.html';"
+              />
+              <a href="/artist.html">
+                <div class="artist-name">Billie Eilish</div>
+              </a>
+            </div>
+            <div class="artist-details">
+              <img
+                class="artist-image"
+                src="images/artists/bruno mars.jpg"
+                alt="Bruno Mars"
+                onclick="location.href='artist.html';"
+              />
+              <a href="/artist.html">
+                <div class="artist-name">Bruno Mars</div>
+              </a>
+            </div>
+            <div class="artist-details">
+              <img
+                class="artist-image"
+                src="images/artists/Camila Cabello.jpg"
+                alt="Camila Cabello"
+                onclick="location.href='artist.html';"
+              />
+              <a href="/artist.html">
+                <div class="artist-name">Camila Cabello</div>
+              </a>
+            </div>
+            <div class="artist-details">
+              <img
+                class="artist-image"
+                src="images/artists/drake.jpg"
+                alt="Drake"
+                onclick="location.href='artist.html';"
+              />
+              <a href="/artist.html">
+                <div class="artist-name">Drake</div>
+              </a>
+            </div>
+          </div>
+          <div class="themes">
+            <div class="music-themes">
+              <img
+                class="theme-image"
+                src="images/music-themes/chill.jpg"
+                alt="chill theme"
+              />
+              <div class="theme-name">Chill</div>
+            </div>
+            <div class="music-themes">
+              <img
+                class="theme-image"
+                src="images/music-themes/love.jpg"
+                alt="love theme"
+              />
+              <div class="theme-name">Love</div>
+            </div>
+            <div class="music-themes">
+              <img
+                class="theme-image"
+                src="images/music-themes/pop.jpg"
+                alt="pop theme"
+              />
+              <div class="theme-name">Pop</div>
+            </div>
+            <div class="music-themes">
+              <img
+                class="theme-image"
+                src="images/music-themes/retro.jpg"
+                alt="retro theme"
+              />
+              <div class="theme-name">Retro</div>
+            </div>
+            <div class="music-themes">
+              <img
+                class="theme-image"
+                src="images/music-themes/rock.jpg"
+                alt="rock theme"
+              />
+              <div class="theme-name">Rock</div>
+            </div>
+            <div class="music-themes">
+              <img
+                class="theme-image"
+                src="images/music-themes/workout.jpg"
+                alt="workout theme"
+              />
+              <div class="theme-name">Workout</div>
+            </div>
+          </div>
+          <div class="main-themes">
+            <div class="party-theme">
+              <img
+                class="party-image"
+                src="images/music-themes/party.jpg"
+                alt="party theme"
+              />
+              <div class="theme-name">Party</div>
+            </div>
+            <div class="electronic-theme">
+              <img
+                class="electronic-image"
+                src="images/music-themes/electronic.jpg"
+                alt="party theme"
+              />
+              <div class="theme-name">Electronic</div>
+            </div>
+            <div class="road-theme">
+              <img
+                class="road-image"
+                src="images/music-themes/road.jpg"
+                alt="road theme"
+              />
+              <div class="theme-name">Road Trip</div>
+            </div>
+          </div>
+
+          <div class="latest">
+            <h2 class="sub-title">Latest English</h2>
+            <div class="latest-english">
+              <div class="latest-song">
+                <img
+                  class="latest-song-image"
+                  src="images/latest-released/I'll Wait.jpg"
+                  alt="I 'll Wait song"
+                />
+                <div class="latest-song-name">
+                  I 'll Wait
+                </div>
+                <div class="latest-song-date default-text-color">
+                  Aug 11,2022
+                </div>
+              </div>
+              <div class="latest-song">
+                <img
+                  class="latest-song-image"
+                  src="images/latest-released/ily.jpg"
+                  alt="Ily"
+                />
+                <div class="latest-song-name">
+                  Ily
+                </div>
+                <div class="latest-song-date default-text-color">
+                  Dec 15,2022
+                </div>
+              </div>
+              <div class="latest-song">
+                <img
+                  class="latest-song-image"
+                  src="images/latest-released/let me go.jpg"
+                  alt="let me go"
+                />
+                <div class="latest-song-name">
+                  let me go
+                </div>
+                <div class="latest-song-date default-text-color">
+                  Nov 22,2022
+                </div>
+              </div>
+              <div class="latest-song">
+                <img
+                  class="latest-song-image"
+                  src="images/latest-released/qurantine clean.jpg"
+                  alt="qurantine clean"
+                />
+                <div class="latest-song-name">
+                  Qurantine Clean
+                </div>
+                <div class="latest-song-date default-text-color">
+                  Oct 30,2022
+                </div>
+              </div>
+              <div class="latest-song">
+                <img
+                  class="latest-song-image"
+                  src="images/latest-released/roar.jpg"
+                  alt="roar"
+                />
+                <div class="latest-song-name">
+                  Roar
+                </div>
+                <div class="latest-song-date default-text-color">
+                  Jan 14,2022
+                </div>
+              </div>
+              <div class="latest-song">
+                <img
+                  class="latest-song-image"
+                  src="images/latest-released/toosie slide.jpg"
+                  alt="toosie slide"
+                />
+                <div class="latest-song-name">
+                  Toosie Slide
+                </div>
+                <div class="latest-song-date default-text-color">
+                  June 29,2022
+                </div>
+              </div>
+              <div class="latest-song">
+                <img
+                  class="latest-song-image"
+                  src="images/latest-released/uptown funk.png"
+                  alt="I 'll Wait song"
+                />
+                <div class="latest-song-name">
+                  Uptown Funk
+                </div>
+                <div class="latest-song-date default-text-color">
+                  Feb 24,2022
+                </div>
+              </div>
+            </div>
+            <h2 class="sub-title">Latest Hindi</h2>
+            <div class="latest-hindi">
+              <div class="latest-song">
+                <img
+                  class="latest-song-image"
+                  src="images/latest-released/latest-hindi/baarish.jpeg"
+                  alt="baarish song"
+                />
+                <div class="latest-song-name">
+                  Baarish
+                </div>
+                <div class="latest-song-date default-text-color">
+                  Aug 02,2022
+                </div>
+              </div>
+              <div class="latest-song">
+                <img
+                  class="latest-song-image"
+                  src="images/latest-released/latest-hindi/galiyaan.jpg"
+                  alt="galiyaan song"
+                />
+                <div class="latest-song-name">
+                  Galiyaan
+                </div>
+                <div class="latest-song-date default-text-color">
+                  Jan 14,2022
+                </div>
+              </div>
+              <div class="latest-song">
+                <img
+                  class="latest-song-image"
+                  src="images/latest-released/latest-hindi/giveme some sunshine.jpg"
+                  alt="giveme some sunshine"
+                />
+                <div class="latest-song-name">
+                  Giveme some sunshine
+                </div>
+                <div class="latest-song-date default-text-color">
+                  Feb 24,2022
+                </div>
+              </div>
+              <div class="latest-song">
+                <img
+                  class="latest-song-image"
+                  src="images/latest-released/latest-hindi/kaun tujhe.jpg"
+                  alt="kaun tujhe"
+                />
+                <div class="latest-song-name">
+                  Kaun Tujhe
+                </div>
+                <div class="latest-song-date default-text-color">
+                  June 29,2022
+                </div>
+              </div>
+              <div class="latest-song">
+                <img
+                  class="latest-song-image"
+                  src="images/latest-released/latest-hindi/tera ban jaunga.jpg"
+                  alt="tera ban jaunga song"
+                />
+                <div class="latest-song-name">
+                  Tera Ban Jaunga
+                </div>
+                <div class="latest-song-date default-text-color">
+                  Feb 24,2022
+                </div>
+              </div>
+              <div class="latest-song">
+                <img
+                  class="latest-song-image"
+                  src="images/latest-released/latest-hindi/tere sang yara.jpg"
+                  alt="tere sang yara song"
+                />
+                <div class="latest-song-name">
+                  Tere Sang Yara Song
+                </div>
+                <div class="latest-song-date default-text-color">
+                  Mar 13,2022
+                </div>
+              </div>
+              <div class="latest-song">
+                <img
+                  class="latest-song-image"
+                  src="images/latest-released/latest-hindi/galiyaan.jpg"
+                  alt="galiyaan song"
+                />
+                <div class="latest-song-name">
+                  Galiyaan
+                </div>
+                <div class="latest-song-date default-text-color">
+                  Jan 14,2022
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="sidebar">
+          <div class="sidebar-details">
+            <h2 class="sidebar-title">Queue</h2>
+            <p class="sidebar-checkbox">
+              Queue <i class="fa-regular fa-square-caret-down"></i>
+            </p>
+          </div>
+          <div class="sidebar-main">
+            <div class="sidebar-list">
+              <div class="sidebar-count">01</div>
+              <img
+                class="sidebar-thumbnail"
+                src="images/playlist/7rings.jpg"
+                alt="7rings"
+              />
+              <div class="music-details">
+                <div class="sidebar-song-title">7rings</div>
+                <div class="sidebar-artist-name default-text-color">
+                  Ariana Grande
+                </div>
+              </div>
+              <div class="sidebar-likebutton">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
+            <div class="sidebar-list">
+              <div class="sidebar-count">02</div>
+              <img
+                class="sidebar-thumbnail"
+                src="images/playlist/cheapthrills.jpg"
+                alt="Cheapthrills"
+              />
+              <div class="music-details">
+                <div class="sidebar-song-title">Cheapthrills</div>
+                <div class="sidebar-artist-name default-text-color">Sia</div>
+              </div>
+              <div class="sidebar-likebutton">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
+            <div class="sidebar-list">
+              <div class="sidebar-count">03</div>
+              <img
+                class="sidebar-thumbnail"
+                src="images/playlist/good4u.jpg"
+                alt="good4u"
+              />
+              <div class="music-details">
+                <div class="sidebar-song-title">Good4u</div>
+                <div class="sidebar-artist-name default-text-color">
+                  Olivia Rodrigo
+                </div>
+              </div>
+              <div class="sidebar-likebutton">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
+            <div class="sidebar-list">
+              <div class="sidebar-count">04</div>
+              <img
+                class="sidebar-thumbnail"
+                src="images/playlist/kissmemore.jpg"
+                alt="kissmemore"
+              />
+              <div class="music-details">
+                <div class="sidebar-song-title">kissmemore</div>
+                <div class="sidebar-artist-name default-text-color">
+                  Doja Cat
+                </div>
+              </div>
+              <div class="sidebar-likebutton">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
+            <div class="sidebar-list">
+              <div class="sidebar-count">05</div>
+              <img
+                class="sidebar-thumbnail"
+                src="images/playlist/peaches.jpg"
+                alt="peaches"
+              />
+              <div class="music-details">
+                <div class="sidebar-song-title">7rings</div>
+                <div class="sidebar-artist-name default-text-color">
+                  Ariana Grande
+                </div>
+              </div>
+              <div class="sidebar-likebutton">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
+            <div class="sidebar-list">
+              <div class="sidebar-count">06</div>
+              <img
+                class="sidebar-thumbnail"
+                src="images/playlist/shapeofyou.jpg"
+                alt="shapeofyou"
+              />
+              <div class="music-details">
+                <div class="sidebar-song-title">7rings</div>
+                <div class="sidebar-artist-name default-text-color">
+                  Ariana Grande
+                </div>
+              </div>
+              <div class="sidebar-likebutton">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
+            <div class="sidebar-list">
+              <div class="sidebar-count">07</div>
+              <img
+                class="sidebar-thumbnail"
+                src="images/playlist/we'regood.jpg"
+                alt="we'regood"
+              />
+              <div class="music-details">
+                <div class="sidebar-song-title">7rings</div>
+                <div class="sidebar-artist-name default-text-color">
+                  Ariana Grande
+                </div>
+              </div>
+              <div class="sidebar-likebutton">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
+            <div class="sidebar-list">
+              <div class="sidebar-count">08</div>
+              <img
+                class="sidebar-thumbnail"
+                src="images/playlist/7rings.jpg"
+                alt="7rings"
+              />
+              <div class="music-details">
+                <div class="sidebar-song-title">7rings</div>
+                <div class="sidebar-artist-name default-text-color">
+                  Ariana Grande
+                </div>
+              </div>
+              <div class="sidebar-likebutton">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
+            <div class="sidebar-list">
+              <div class="sidebar-count">09</div>
+              <img
+                class="sidebar-thumbnail"
+                src="images/playlist/cheapthrills.jpg"
+                alt="Cheapthrills"
+              />
+              <div class="music-details">
+                <div class="sidebar-song-title">Cheapthrills</div>
+                <div class="sidebar-artist-name default-text-color">Sia</div>
+              </div>
+              <div class="sidebar-likebutton">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
+            <div class="sidebar-list">
+              <div class="sidebar-count">10</div>
+              <img
+                class="sidebar-thumbnail"
+                src="images/playlist/good4u.jpg"
+                alt="good4u"
+              />
+              <div class="music-details">
+                <div class="sidebar-song-title">Good4u</div>
+                <div class="sidebar-artist-name default-text-color">
+                  Olivia Rodrigo
+                </div>
+              </div>
+              <div class="sidebar-likebutton">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
+            <div class="sidebar-list">
+              <div class="sidebar-count">11</div>
+              <img
+                class="sidebar-thumbnail"
+                src="images/playlist/kissmemore.jpg"
+                alt="kissmemore"
+              />
+              <div class="music-details">
+                <div class="sidebar-song-title">kissmemore</div>
+                <div class="sidebar-artist-name default-text-color">
+                  Doja Cat
+                </div>
+              </div>
+              <div class="sidebar-likebutton">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
+            <div class="sidebar-list">
+              <div class="sidebar-count">12</div>
+              <img
+                class="sidebar-thumbnail"
+                src="images/playlist/peaches.jpg"
+                alt="peaches"
+              />
+              <div class="music-details">
+                <div class="sidebar-song-title">7rings</div>
+                <div class="sidebar-artist-name default-text-color">
+                  Ariana Grande
+                </div>
+              </div>
+              <div class="sidebar-likebutton">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
+            <div class="sidebar-list">
+              <div class="sidebar-count">13</div>
+              <img
+                class="sidebar-thumbnail"
+                src="images/playlist/shapeofyou.jpg"
+                alt="shapeofyou"
+              />
+              <div class="music-details">
+                <div class="sidebar-song-title">7rings</div>
+                <div class="sidebar-artist-name default-text-color">
+                  Ariana Grande
+                </div>
+              </div>
+              <div class="sidebar-likebutton">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
+            <div class="sidebar-list">
+              <div class="sidebar-count">14</div>
+              <img
+                class="sidebar-thumbnail"
+                src="images/playlist/we'regood.jpg"
+                alt="we'regood"
+              />
+              <div class="music-details">
+                <div class="sidebar-song-title">7rings</div>
+                <div class="sidebar-artist-name default-text-color">
+                  Ariana Grande
+                </div>
+              </div>
+              <div class="sidebar-likebutton">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="music-player">
+          <div class="current-playlist">
+            <img
+              class="playlist-image"
+              src="images/playlist/shapeofyou.jpg"
+              alt="shapeofyou"
+            />
+            <div class="current-song">
+              <marquee>Shape Of You</marquee>
+              <div class="current-song-artist">Ed Sheeran</div>
+            </div>
+            <i class="fa-regular fa-heart heart"></i>
+            <i class="fa-solid fa-ban ban"></i>
+            <div class="player">
+              <div class="player-control">
+                <i class="fa-solid fa-shuffle fa-xl player-items"></i>
+                <i class="fa-solid fa-backward fa-xl player-items"></i>
+                <i class="fa-solid fa-circle-play fa-2xl player-items"></i>
+                <i class="fa-solid fa-forward fa-xl player-items"></i>
+                <i class="fa-solid fa-arrows-rotate fa-xl player-items"></i>
+              </div>
+              <div class="player-slider">
+                <div class="player-current-time">1.39</div>
+                <input
+                  class="player-slider-bar"
+                  type="range"
+                  min="1"
+                  max="100"
+                  value="30"
+                />
+                <div class="player-duration">4.44</div>
+              </div>
+            </div>
+            <div class="player-extra">
+              <i class="fa-solid fa-list player-items"></i>
+              <i class="fa-solid fa-computer player-items"></i>
+              <i class="fa-solid fa-volume-high player-items"></i>
+              <input
+                type="range"
+                min="1"
+                max="100"
+                value="80"
+                class="range-slider"
+              />
+              <i
+                class="fa-solid fa-up-right-and-down-left-from-center player-items"
+              ></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

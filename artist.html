@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Artist - Web Development CSS Major Project</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/artist.css" />
+    <script
+      src="https://kit.fontawesome.com/f6545ee271.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="navbar">
+        <div class="navbar-menu">
+          <img
+            class="logo"
+            src="images/logo.png"
+            alt="logo"
+            onclick="location.href='index.html';"
+          />
+          <div class="navbar-item">Favourites</div>
+        </div>
+        <div class="navbar-search">
+          <input
+            class="search-bar"
+            type="text"
+            name="search"
+            placeholder="Search"
+          />
+          <div class="notification">
+            <i class="bell-icon fa-regular fa-bell"></i>
+            <img src="images/badge.png" class="badge" alt="badge" />
+          </div>
+          <img
+            class="profile-image"
+            src="images/profile-image.jpg"
+            alt="profile-image"
+          />
+        </div>
+      </div>
+      <div class="main">
+        <div class="content">
+          <div class="artist-container">
+            <div class="artist-container-image">
+              <img
+                class="artist-thumbnail"
+                src="images/artists/bruno mars.jpg"
+                alt="bruno mars"
+              />
+            </div>
+            <div class="artist-container-description">
+              <div class="artist-container-details">
+                <div class="artist-container-name">Bruno Mars</div>
+                <div class="artist-follower-count">1M+ Followers</div>
+                <div class="artist-genre default-text-color">POP</div>
+              </div>
+              <div class="artist-about default-text-color">
+                Peter Gene Hernandez, known professionally as Bruno Mars, is an
+                American singer, songwriter, and record producer. He is known
+                for his stage performances, retro showmanship, and for
+                performing in a wide range of musical styles, including pop,
+                R&B, funk, soul, reggae, disco, and rock.
+              </div>
+              <div class="artist-button">
+                <button class="playall">Play All</button>
+                <button class="follow">Follow</button>
+              </div>
+              <div class="artist-song-data">247 Tracks | 128 Albums</div>
+            </div>
+          </div>
+          <div class="artist-playlist">
+            <div class="artist-songs">
+              <div class="artist-song-data">
+                <div class="artist-song-count">01</div>
+                <img
+                  class="artist-song-thumbnail"
+                  src="images/single-artist-songs/qurantine-clean.jpg"
+                  alt="24magic"
+                />
+                <div class="artist-song-details">
+                  <div class="artist-song-title">Let Me Go</div>
+                  <div class="artist-song-name default-text-color">
+                    Bruno Mars
+                  </div>
+                </div>
+              </div>
+              <div class="artist-likebutton">
+                <i class="fa-regular fa-heart heart"></i>
+                <i class="fa-solid fa-plus plus"></i>
+              </div>
+            </div>
+            <div class="artist-songs">
+              <div class="artist-song-data">
+                <div class="artist-song-count">02</div>
+                <img
+                  class="artist-song-thumbnail"
+                  src="images/single-artist-songs/qurantine-clean.jpg"
+                  alt="24magic"
+                />
+                <div class="artist-song-details">
+                  <div class="artist-song-title">Qurantine Clean</div>
+                  <div class="artist-song-name default-text-color">
+                    Bruno Mars
+                  </div>
+                </div>
+              </div>
+              <div class="artist-likebutton">
+                <i class="fa-regular fa-heart heart"></i>
+                <i class="fa-solid fa-plus plus"></i>
+              </div>
+            </div>
+            <div class="artist-songs">
+              <div class="artist-song-data">
+                <div class="artist-song-count">03</div>
+                <img
+                  class="artist-song-thumbnail"
+                  src="images/single-artist-songs/qurantine-clean.jpg"
+                  alt="Uptown Funk"
+                />
+                <div class="artist-song-details">
+                  <div class="artist-song-title">Uptown Funk</div>
+                  <div class="artist-song-name default-text-color">
+                    Bruno Mars
+                  </div>
+                </div>
+              </div>
+              <div class="artist-likebutton">
+                <i class="fa-regular fa-heart heart"></i>
+                <i class="fa-solid fa-plus plus"></i>
+              </div>
+            </div>
+            <div class="artist-songs">
+              <div class="artist-song-data">
+                <div class="artist-song-count">04</div>
+                <img
+                  class="artist-song-thumbnail"
+                  src="images/single-artist-songs/qurantine-clean.jpg"
+                  alt="Toosie Slide"
+                />
+                <div class="artist-song-details">
+                  <div class="artist-song-title">Toosie Slide</div>
+                  <div class="artist-song-name default-text-color">
+                    Bruno Mars
+                  </div>
+                </div>
+              </div>
+              <div class="artist-likebutton">
+                <i class="fa-regular fa-heart heart"></i>
+                <i class="fa-solid fa-plus plus"></i>
+              </div>
+            </div>
+            <div class="artist-songs">
+              <div class="artist-song-data">
+                <div class="artist-song-count">05</div>
+                <img
+                  class="artist-song-thumbnail"
+                  src="images/single-artist-songs/qurantine-clean.jpg"
+                  alt="Roar"
+                />
+                <div class="artist-song-details">
+                  <div class="artist-song-title">Roar</div>
+                  <div class="artist-song-name default-text-color">
+                    Bruno Mars
+                  </div>
+                </div>
+              </div>
+              <div class="artist-likebutton">
+                <i class="fa-regular fa-heart heart"></i>
+                <i class="fa-solid fa-plus plus"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="sidebar">
+          <div class="sidebar-details">
+            <h2 class="sidebar-title">Similar Artists</h2>
+            <p class="sidebar-checkbox">View All</p>
+          </div>
+          <div class="similar-artist">
+            <img
+              class="similar-artist-image"
+              src="images/artists/ed sheeran.jpg"
+              alt="ed sheeran.jpg"
+            />
+            <div class="music-details">
+              <div class="sidebar-song-title">Shape Of You</div>
+              <div class="sidebar-artist-name default-text-color">
+                Ed Sheeran
+              </div>
+            </div>
+            <div class="music-details">
+              <div class="sidebar-song-title play-details default-text-color">
+                . . .
+              </div>
+              <div class="sidebar-artist-name default-text-color">4.44</div>
+            </div>
+          </div>
+          <div class="similar-artist">
+            <img
+              class="similar-artist-image"
+              src="images/artists/ed sheeran.jpg"
+              alt="ed sheeran.jpg"
+            />
+            <div class="music-details">
+              <div class="sidebar-song-title">Shape Of You</div>
+              <div class="sidebar-artist-name default-text-color">
+                Ed Sheeran
+              </div>
+            </div>
+            <div class="music-details">
+              <div class="sidebar-song-titlec play-details default-text-color">
+                . . .
+              </div>
+              <div class="sidebar-artist-name default-text-color">4.44</div>
+            </div>
+          </div>
+          <div class="similar-artist">
+            <img
+              class="similar-artist-image"
+              src="images/artists/ed sheeran.jpg"
+              alt="ed sheeran.jpg"
+            />
+            <div class="music-details">
+              <div class="sidebar-song-title">Shape Of You</div>
+              <div class="sidebar-artist-name default-text-color">
+                Ed Sheeran
+              </div>
+            </div>
+            <div class="music-details">
+              <div class="sidebar-song-title play-details default-text-color">
+                . . .
+              </div>
+              <div class="sidebar-artist-name default-text-color">4.44</div>
+            </div>
+          </div>
+          <div class="sidebar-details">
+            <h2 class="sidebar-title">Recently Played</h2>
+            <p class="sidebar-checkbox">View All</p>
+          </div>
+          <div class="sidebar-main">
+            <div class="sidebar-list">
+              <div class="sidebar-count">01</div>
+              <img
+                class="sidebar-thumbnail"
+                src="images/playlist/7rings.jpg"
+                alt="7rings"
+              />
+              <div class="music-details">
+                <div class="sidebar-song-title">7rings</div>
+                <div class="sidebar-artist-name default-text-color">
+                  Ariana Grande
+                </div>
+              </div>
+              <div class="sidebar-likebutton">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
+            <div class="sidebar-list">
+              <div class="sidebar-count">02</div>
+              <img
+                class="sidebar-thumbnail"
+                src="images/playlist/cheapthrills.jpg"
+                alt="Cheapthrills"
+              />
+              <div class="music-details">
+                <div class="sidebar-song-title">Cheapthrills</div>
+                <div class="sidebar-artist-name default-text-color">Sia</div>
+              </div>
+              <div class="sidebar-likebutton">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
+            <div class="sidebar-list">
+              <div class="sidebar-count">03</div>
+              <img
+                class="sidebar-thumbnail"
+                src="images/playlist/good4u.jpg"
+                alt="good4u"
+              />
+              <div class="music-details">
+                <div class="sidebar-song-title">Good4u</div>
+                <div class="sidebar-artist-name default-text-color">
+                  Olivia Rodrigo
+                </div>
+              </div>
+              <div class="sidebar-likebutton">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
+            <div class="sidebar-list">
+              <div class="sidebar-count">04</div>
+              <img
+                class="sidebar-thumbnail"
+                src="images/playlist/kissmemore.jpg"
+                alt="kissmemore"
+              />
+              <div class="music-details">
+                <div class="sidebar-song-title">kissmemore</div>
+                <div class="sidebar-artist-name default-text-color">
+                  Doja Cat
+                </div>
+              </div>
+              <div class="sidebar-likebutton">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
+            <div class="sidebar-list">
+              <div class="sidebar-count default-text-color">05</div>
+              <img
+                class="sidebar-thumbnail"
+                src="images/playlist/peaches.jpg"
+                alt="peaches"
+              />
+              <div class="music-details">
+                <div class="sidebar-song-title">7rings</div>
+                <div class="sidebar-artist-name default-text-color">
+                  Ariana Grande
+                </div>
+              </div>
+              <div class="sidebar-likebutton">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
+            <div class="sidebar-list">
+              <div class="sidebar-count default-text-color">06</div>
+              <img
+                class="sidebar-thumbnail"
+                src="images/playlist/shapeofyou.jpg"
+                alt="shapeofyou"
+              />
+              <div class="music-details">
+                <div class="sidebar-song-title">7rings</div>
+                <div class="sidebar-artist-name default-text-color">
+                  Ariana Grande
+                </div>
+              </div>
+              <div class="sidebar-likebutton">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
+            <div class="sidebar-list">
+              <div class="sidebar-count default-text-color">07</div>
+              <img
+                class="sidebar-thumbnail"
+                src="images/playlist/we'regood.jpg"
+                alt="we'regood"
+              />
+              <div class="music-details">
+                <div class="sidebar-song-title">7rings</div>
+                <div class="sidebar-artist-name default-text-color">
+                  Ariana Grande
+                </div>
+              </div>
+              <div class="sidebar-likebutton">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="music-player">
+          <div class="current-playlist">
+            <img
+              class="playlist-image"
+              src="images/playlist/shapeofyou.jpg"
+              alt="shapeofyou"
+            />
+            <div class="current-song">
+              <marquee>Shape Of You</marquee>
+              <div class="current-song-artist">Ed Sheeran</div>
+            </div>
+            <i class="fa-regular fa-heart heart"></i>
+            <i class="fa-solid fa-ban ban"></i>
+            <div class="player">
+              <div class="player-control">
+                <i class="fa-solid fa-shuffle fa-xl player-items"></i>
+                <i class="fa-solid fa-backward fa-xl player-item"></i>
+                <i class="fa-solid fa-circle-play fa-2xl player-items"></i>
+                <i class="fa-solid fa-forward fa-xl player-items"></i>
+                <i class="fa-solid fa-arrows-rotate fa-xl player-items"></i>
+              </div>
+              <div class="player-slider">
+                <div class="player-current-time">1.39</div>
+                <input
+                  class="player-slider-bar"
+                  type="range"
+                  min="1"
+                  max="100"
+                  value="30"
+                />
+                <div class="player-duration">4.44</div>
+              </div>
+            </div>
+            <div class="player-extra">
+              <i class="fa-solid fa-list player-items"></i>
+              <i class="fa-solid fa-computer player-items"></i>
+              <i class="fa-solid fa-volume-high player-items"></i>
+              <input type="range" min="1" max="100" value="80" />
+              <i
+                class="fa-solid fa-up-right-and-down-left-from-center player-items"
+              ></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

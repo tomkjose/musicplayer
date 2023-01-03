@@ -1,0 +1,401 @@
+/* import */
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+/* variables */
+:root {
+  --primary-color: #0c1027;
+  --text-color: #fcfcfe;
+  --search-bar: #12193e;
+  --sidebar-text: #51e2c2;
+  --player-background-color: #282828;
+  --player-slider-color: #404040;
+  --default-text-color: #79797a;
+}
+/* reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color-scheme: light dark;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+}
+body {
+  background-color: var(--primary-color);
+}
+a:visited {
+  color: var(--text-color);
+}
+.container {
+  width: 100%;
+  background-color: var(--primary-color);
+  color: var(--text-color);
+}
+
+/* navbar */
+
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  background-color: var(--primary-color);
+  top: 0;
+  z-index: 1;
+}
+.navbar-menu,
+.navbar-search {
+  display: flex;
+  width: 50%;
+  align-items: center;
+}
+.navbar-menu {
+  justify-content: flex-start;
+}
+.navbar-search {
+  justify-content: flex-end;
+}
+.navbar-item {
+  cursor: pointer;
+}
+.badge {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  width: 80%;
+  height: 60%;
+  border-radius: 50%;
+}
+.notification {
+  position: relative;
+}
+.logo {
+  max-width: 20%;
+  cursor: pointer;
+}
+.search-bar {
+  margin: 0 2rem;
+  background-color: var(--search-bar);
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  width: 50%;
+}
+.profile-image {
+  max-width: 5%;
+  border-radius: 50%;
+  margin: 0 2rem;
+  cursor: pointer;
+}
+.fa-bell {
+  cursor: pointer;
+}
+.default-text-color {
+  color: var(--default-text-color);
+}
+/* main */
+
+.main {
+  width: 90%;
+  padding-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+  margin: 0rem auto 3rem auto;
+}
+.content {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  padding: 4rem 0;
+}
+.sidebar {
+  width: 30%;
+  height: 650px;
+  overflow-y: auto;
+}
+/* featured songs */
+
+.featured {
+  display: flex;
+  justify-content: space-between;
+}
+.featured-images {
+  width: 30%;
+  cursor: pointer;
+}
+.featured-images:hover {
+  transform: scale(1.1);
+}
+
+/* Latest songs */
+
+.lastest-release {
+  display: flex;
+  flex-wrap: wrap;
+}
+.latest-release-song {
+  display: flex;
+  width: 50%;
+  justify-content: space-evenly;
+}
+.song-image {
+  padding: 3rem 0;
+  width: 5rem;
+  cursor: pointer;
+}
+.sub-title {
+  padding: 2rem 0;
+  font-weight: 700;
+  font-size: 1rem;
+}
+.song-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.song-data {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-top: 2rem;
+}
+.song-duration {
+  padding-top: 1rem;
+}
+.song-dropdown {
+  cursor: pointer;
+  font-weight: 700;
+}
+.song-name {
+  font-weight: 700;
+  cursor: pointer;
+}
+
+/* popular artists */
+
+.popular-artists {
+  display: flex;
+  width: 100%;
+}
+.artist-image {
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.artist-image-container {
+  width: 20%;
+}
+.artist-details {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  padding: 0 1rem;
+}
+.artist-name {
+  text-align: center;
+  padding: 1rem 0;
+}
+/* Music themes */
+
+.themes {
+  background-color: var(--search-bar);
+  display: flex;
+  width: 100%;
+}
+.theme-name {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: 700;
+}
+.theme-image {
+  border-radius: 50%;
+  width: 100%;
+  filter: blur(1px);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.music-themes {
+  width: 20%;
+  position: relative;
+  padding: 1rem 1.5rem;
+  cursor: pointer;
+}
+.main-themes {
+  padding: 3rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+.party-image,
+.electronic-image,
+.road-image {
+  width: 100%;
+}
+.party-theme,
+.electronic-theme,
+.road-theme {
+  position: relative;
+  width: 30%;
+}
+
+/* latest songs*/
+
+.latest {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.latest-english,
+.latest-hindi {
+  display: flex;
+  width: 100%;
+}
+.latest-song {
+  width: 15%;
+  padding: 0 1rem;
+}
+.latest-song-image {
+  width: 100%;
+  cursor: pointer;
+}
+.latest-song-name {
+  padding: 1rem 0;
+}
+
+/* sidebar */
+
+.sidebar {
+  padding: 2rem 3rem;
+}
+.sidebar-title {
+  font-size: 1.4rem;
+}
+.sidebar-checkbox {
+  color: var(--sidebar-text);
+}
+.sidebar-main {
+  width: 100%;
+}
+.sidebar-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sidebar-list {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem 0;
+}
+.music-details {
+  display: flex;
+  flex-direction: column;
+}
+.sidebar-thumbnail {
+  width: 20%;
+  cursor: pointer;
+}
+.fa-heart,
+.fa-ban,
+.sidebar-song-title {
+  cursor: pointer;
+}
+
+/* music player */
+
+.music-player {
+  background-color: var(--player-background-color);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  width: 100%;
+  height: 100px;
+}
+.playlist-image {
+  height: 80px;
+  padding: 0.5rem;
+}
+.current-song {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 0 1rem;
+}
+.current-playlist {
+  display: flex;
+  width: 90%;
+  margin: auto;
+}
+
+.heart {
+  padding: 1rem 0.5rem;
+  text-align: center;
+}
+.ban {
+  padding: 1rem 0.5rem;
+  text-align: center;
+}
+.player {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 60%;
+}
+.player-items {
+  cursor: pointer;
+  padding: 1rem 1rem;
+  text-align: center;
+}
+.player-slider {
+  display: flex;
+}
+.player-slider-bar {
+  width: 18rem;
+}
+.player-current-time,
+.player-duration {
+  padding: 1rem 0.5rem;
+}
+.player-extra {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Large devices (desktops, 1200px and below) */
+
+@media only screen and (max-width: 1200px) {
+  * {
+    font-size: 12px;
+  }
+}
+/* Medium devices (tablets, 780px and below) */
+
+@media only screen and (max-width: 780px) {
+  * {
+    font-size: 10px;
+  }
+}
+
+/* Small devices (landscape phones, 576px and below) */
+
+@media only screen and (max-width: 640px) {
+  * {
+    font-size: 8px;
+  }
+  .main {
+    flex-direction: column;
+    padding-bottom: 15rem;
+  }
+  .content {
+    width: 100%;
+  }
+  .sidebar {
+    width: 100%;
+    height: 100%;
+  }
+}
